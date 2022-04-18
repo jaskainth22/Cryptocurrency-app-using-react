@@ -14,7 +14,6 @@ export default function App() {
       )
       .then((res) => {
         setCoins(res.data);
-        console.log(res.data);
       })
       .catch((error) => console.log(error));
   }, []);
